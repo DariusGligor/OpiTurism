@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/buttonu"
+    tools:context=".v22">
+    <ImageView
+        android:id="@+id/imaginesc"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:layout_below="@+id/imaginesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaginesc"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/urmatoareaBtn"
+        android:layout_width="145dp"
+        android:layout_height="59dp"
+        android:background="@drawable/buton_v"
+        android:text="Urmatoarea"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <Button
+        android:id="@+id/anteriorBtn"
+        android:layout_width="145dp"
+        android:layout_height="59dp"
+        android:textAllCaps="false"
+        android:background="@drawable/buton_vv"
+        android:text="Anterioara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.367" />
+</androidx.constraintlayout.widget.ConstraintLayout>
